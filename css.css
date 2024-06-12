@@ -1,15 +1,15 @@
-p{
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
+body{
+    margin-: 0 8px auto 8px;
+    background-image: url(images/fondo.jpg); 
 }
+
 .box{
     display: flex;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
     flex-direction:column;
-    background-image: url(images/fondo.jpg);      
+         
 }
 .TeCositos{
     max-width: 300px;
@@ -32,8 +32,8 @@ p{
     background-color:cornflowerblue;
     border-radius: 20px 0px 20px 20px;
 }
-.perfil {min-width: 60px;
-        min-height: 60px;
+.perfil {min-width: 50px;
+        min-height: 50px;
         max-width: 150px;
         max-height: 150px;
         width: 100%;
@@ -54,4 +54,10 @@ p{
 h1{
     color:aliceblue;
     text-align: center;
+}
+p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.1rem;
 }
