@@ -33,8 +33,8 @@ p{
     background-color:cornflowerblue;
     border-radius: 20px 0px 20px 20px;
 }
-.perfil {min-width: 80px;
-        min-height: 80px;
+.perfil {min-width: 50px;
+        min-height: 50px;
         max-width: 150px;
         max-height: 150px;
         width: 100%;
