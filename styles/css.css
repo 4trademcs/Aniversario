@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-image: url(../images/fondo.jpg); 
+}
+
+.box{
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    flex-direction:column;
+} 
+
+.ohana{
+    display: flex;
+    flex-direction:row;  
+} 
+
+.reverse{
+    flex-direction: row-reverse;
+} 
+
+.TeCositos{
+   
+ 
+    padding: 0px 10px 0px 20px;
+    margin: 30px 10px 10px 5px;
+    border: 3px solid #444;
+    margin-top: 9%;
+}
+
+.Clau{
+    margin-right: 10%;
+    background-color: aquamarine;
+    border-radius: 0px 20px 20px 20px;   
+}
+
+.Michel{
+    margin-left: 10%;
+    background-color:cornflowerblue;
+    border-radius: 20px 0px 20px 20px;   
+}
+
+.perfil{
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: max-content;
+    object-fit: cover;
+    border-radius: 100%;
+    
+}
+.clau{
+    margin: 10px 0px 20px 10px;
+}
+.michel{
+    margin: 10px 10px 20px 0px;
+}
+
+h1{
+    color:aliceblue;
+    text-align: center;
+}
+
+p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+@media (min-width:320px) and (max-width:426px) {
+    img.perfil{
+        max-width: 50px;
+        max-height: 50px;
+    } 
+}
+@media (min-width:768px) and (max-width:1024px) {
+    img.perfil{
+        max-width: 100px;
+        max-height: 100px;
+    } 
+}
+@media (min-width:1025px)  {
+    img.perfil{
+        max-width: 150px;
+        max-height: 150px;
+    } 
+}
